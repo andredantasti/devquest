@@ -84,3 +84,8 @@ p{
     color: white;
     background-color: #019101;
 }
+
+a{
+    color: rgb(7, 72, 170);
+    text-decoration: none;
+}
