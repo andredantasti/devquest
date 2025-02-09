@@ -7,7 +7,7 @@
   </head>
   <body>
     <h2>Input Text</h2>
- <label for="nome">   Nome</label>
+    <label for="nome"> Nome</label>
     <input
       type="text"
       placeholder="Insira seu Nome"
@@ -22,17 +22,28 @@
       id="email"
     /><br />
     RG <input type="number" name="RG" id="RG" />
-    <select name="estados" id="estados">
+    <label for="estados">UF </label><select name="estados" id="estados">
+      <option value="">Selecione um Estado</option>
       <option value="DF">DF</option>
       <option value="GO">GO</option></select
     ><br />
+    <label for="masc">Masculino</label
+    ><input type="radio" name="sexo" id="masc" checked />
+    <label for="fem">Feminino</label
+    ><input type="radio" name="sexo" id="fem" /><br />
     Senha <input type="password" name="senha" id="senha" /><br />
     Repita sua senha
-    <input type="password" name="repita-senha" id="repita-senha" /><br /><br>
-    Selecione as linguagens <br>
-    <label for="c#">C#</label> <input type="checkbox" name="liguagens" id="c#"><br>
-    <label for="js">Javascript</label> <input type="checkbox" name="liguagens" id="js"><br>
-    <label for="python">Python</label><input type="checkbox" name="liguagens" id="python"><br><br>
+    <input type="password" name="repita-senha" id="repita-senha" /><br /><br />
+    Selecione as linguagens <br />
+    <label for="c#">C#</label>
+    <input type="checkbox" name="liguagens" id="c#" /><br />
+    <label for="js">Javascript</label>
+    <input type="checkbox" name="liguagens" id="js" checked /><br />
+    <label for="python">Python</label
+    ><input type="checkbox" name="liguagens" id="python" /><br /> <br>
+    
+    <label for="msg">Fale sobre você: </label><br><textarea name="mensagem" id="msg" cols="50" rows="8" ></textarea> <br><br>
+
     <input type="submit" value="Enviar" />
   </body>
 </html>
