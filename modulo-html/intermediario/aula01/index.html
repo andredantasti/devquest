@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Intermediário - Inputs</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Input Text</h2>
-    Nome <input type="text" placeholder="Insira seu Nome" name="nome" id="nome"><br>
-    E-mail <input type="email" placeholder="...@provedor.com.br" name="email" id="email">
-    input:
-
-
-
-</body>
+ <label for="nome">   Nome</label>
+    <input
+      type="text"
+      placeholder="Insira seu Nome"
+      name="nome"
+      id="nome"
+    /><br />
+    E-mail
+    <input
+      type="email"
+      placeholder="...@provedor.com.br"
+      name="email"
+      id="email"
+    /><br />
+    RG <input type="number" name="RG" id="RG" />
+    <select name="estados" id="estados">
+      <option value="DF">DF</option>
+      <option value="GO">GO</option></select
+    ><br />
+    Senha <input type="password" name="senha" id="senha" /><br />
+    Repita sua senha
+    <input type="password" name="repita-senha" id="repita-senha" /><br /><br>
+    Selecione as linguagens <br>
+    <label for="c#">C#</label> <input type="checkbox" name="liguagens" id="c#"><br>
+    <label for="js">Javascript</label> <input type="checkbox" name="liguagens" id="js"><br>
+    <label for="python">Python</label><input type="checkbox" name="liguagens" id="python"><br><br>
+    <input type="submit" value="Enviar" />
+  </body>
 </html>
