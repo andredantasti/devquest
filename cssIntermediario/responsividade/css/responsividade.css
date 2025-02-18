@@ -39,3 +39,20 @@ main p{
 .image img{
     width: 100%;
 }
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 380px){
+    .cabecalho{
+        text-align: center;
+    }
+
+    .cabecalho nav{
+        float: none;         
+    }
+    .cabecalho nav li{
+    display: block;
+    }
+}
