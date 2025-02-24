@@ -1,0 +1,22 @@
+p::first-letter{
+    color: blueviolet;
+}
+
+p::first-line{
+    background-color: brown;
+}
+
+.paragrafo2::first-line{
+    color: aqua;
+}
+
+li::marker{
+    color: chocolate;
+    font-size: 32px;
+}
+
+h2::after{
+    content: url('..//img/logomarca.png');
+
+}
+
