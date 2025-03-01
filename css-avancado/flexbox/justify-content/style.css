@@ -1,0 +1,38 @@
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.space-around div,
+.container.space-evenly div,
+.container.space-between div{
+    margin: 0;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evelyn{
+    display: flex;
+    justify-content: space-evenly;
+}
