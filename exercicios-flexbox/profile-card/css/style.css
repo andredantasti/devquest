@@ -52,4 +52,21 @@ li{
     color: hsl(227, 10%, 46%);
 }
 
+@media (max-width:375px){
+    body{
+        margin: 0;
+    }
+}
 
+@media(max-width:260px){
+    .container-card{
+        min-width: 260px;
+        height: auto;
+        padding: 20px;
+         
+    }
+   ul, li{
+        display: flex;
+        flex-direction: column;
+    }
+}
