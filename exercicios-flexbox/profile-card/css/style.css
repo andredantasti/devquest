@@ -1,0 +1,55 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: kumbh sans;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(227, 10%, 46%);
+}
+
+.container-card{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container-card img{
+    border-radius: 50%;
+
+}
+
+hr{
+    width: 298px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    flex: 1; 
+}
+
+.nome, .quantidade{
+    font-weight: 700;
+    color: black;
+}
+
+.cidade {
+    font-weight: 400;
+    
+}
+.idade{
+    color: hsl(227, 10%, 46%);
+}
+
+
