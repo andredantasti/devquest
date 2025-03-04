@@ -65,6 +65,9 @@ li{
         padding: 20px;
          
     }
+    hr{
+        width: 100%;
+    }
    ul, li{
         display: flex;
         flex-direction: column;
