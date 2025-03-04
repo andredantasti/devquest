@@ -1,0 +1,85 @@
+:root{
+    --cor-texto: hsl(193, 38%, 86%);
+    --cor-botao-conselho: hsl(150, 100%, 66%)
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+.titulo-conselho{
+    color: var(--cor-botao-conselho);
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+
+.conselho{
+    color: var(--cor-texto);
+    font-weight: 700;
+    text-align: center;
+}
+
+.container{
+    background-color: hsl(217, 19%, 24%);
+    height: 240px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    height: 170px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    width: 80%;
+    
+}
+
+.image picture{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button{
+    display: flex;
+    position: absolute;
+    align-items: end;
+    justify-content: center;
+    top: 61%;
+    background-color: var(--cor-botao-conselho);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 20px var(--cor-botao-conselho);
+    cursor: pointer;
+}
+
+@media(max-width:350px){
+   .container{ 
+        width: 90%;
+   }
+   .texto{
+    width: 70%;
+   }
+}
