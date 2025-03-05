@@ -34,9 +34,13 @@ font-family: 'Public Sans', sans-serif;
     padding: 10px 20px 10px 20px;
 }
 
+
+a:hover{
+    color: white;
+}
+
 .menu li:hover{
     background-color: #5bc241;
-    color: white;
 }
 
 .cadastrar{
@@ -45,67 +49,3 @@ font-family: 'Public Sans', sans-serif;
     color: white;
 }
 
-@media(max-width: 1780px){
-    body{
-        width: auto;
-        display: flex;
-    }
-
-}
-
-@media(max-width: 840px){
-    body{
-        display: block;
-        justify-content: center;
-    }
-
-    .topo{
-        display: block;
-        text-align: center;
-    }
-
-    .menu{
-        display: block;
-        justify-content: center;
-    }
-}
-
-@media(max-width: 600px){
-    
-    .topo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-
-    .menu ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-    }
-    .menu{
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        
-    }
-  
-}
-
-@media(max-width: 375px){
-
-    .topo{
-        font-size: 40px;
-        margin-bottom: 60px;
-    }
-    .menu ul{
-        font-size: 40px;
-    }
-
-    .cadastrar{
-        font-size: 15px;
-    }
-}
