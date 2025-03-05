@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 689px;
+
+  font-family: "Public Sans", sans-serif;
+}
+
+.lista-imagens {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+img {
+  transition: ease-in-out 0.3ms;
+  display: flex;
+}
+
+img:hover {
+  border: 1px solid black;
+}
+
+a {
+  position: relative;
+  display: flex;
+}
+
+.informacoes {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+div {
+  font-size: 20px;
+  font-weight: 300;
+}
