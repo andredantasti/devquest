@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: orange;
+}
+
+.menu {
+  background-color: darkseagreen;
+}
+
+.secao-principal {
+  background-color: pink;
+}
+
+.aside {
+  background-color: rgba(245, 245, 38, 0.897);
+}
+
+.rodape {
+  background-color: darksalmon;
+}
+
+.container {
+  display: grid;
+  /* grid-template-areas: "cabecalho cabecalho cabecalho" "menu secao-principal aside" "rodape rodape rodape"; */
+  grid:
+    "cabecalho cabecalho cabecalho" 150px
+    "menu secao-principal aside" 400px
+    "rodape rodape rodape" 100px
+    / 200px 800px 200px; 
+}
+
+.cabecalho {
+  grid-area: cabecalho;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.secao-principal {
+  grid-area: secao-principal;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.rodape {
+  grid-area: rodape;
+}
