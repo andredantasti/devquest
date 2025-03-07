@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.verde-claro {
+  background-color: aquamarine;
+}
+
+.azul {
+  background-color: cornflowerblue;
+}
+
+.rosa {
+  background-color: hotpink;
+}
+
+.laranja-escuro {
+  background-color: orangered;
+}
+
+.verde-forte {
+  background-color: green;
+}
+
+.marrom {
+  background-color: burlywood;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(3, 150px) / repeat(5, 150px);
+  grid-gap: 15px;
+}
+
+.verde-claro {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.azul{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.rosa{
+    grid-column: 1 / span 2; /*começa na coluna 1 e expanda até a coluna 2*/
+}
+
+.laranja-escuro{
+    grid-column: 3 / 5;
+    grid-row: 2/4;
+}
+
+.verde-forte{
+    grid-row: 2 / 2;
+
+}
