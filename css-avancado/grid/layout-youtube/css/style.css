@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Roboto';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(100px, 543px) minmax(100px, 300px);
+    grid-template-rows: minmax(56px, 217px) repeat(5, 50px, 200px);
+    grid-gap: 12px;
+}
+
+.video-principal{
+    grid-area: 1 / 1 / 4 / 1;
+    width: 543px;
+    height: 217px;
+    background-color: darkgrey;
+}
+
+.titulo-descricao{
+    grid-area: 4 / 1 / 5/ 1;
+}
+
+.titulo-descricao h3{
+    margin: 0;
+    font-size: 18;
+    font-weight: 700;
+}
+
+.titulo-descricao p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 300;
+
+}
+
+.visualizacao{
+    font-size: 14px;
+}
+
+.propaganda{
+    grid-area: 1 / 2 / 1 / 2;
+    
+}
+
+.video-pequeno1{
+    grid-area: 2 / 2 / 3 / 2;
+   
+}
+
+.video-pequeno2{
+    grid-area: 3 / 2 / 4 / 2;
+   
+}
+
+.video-pequeno3{
+    grid-area: 4 / 2 / 5 / 2;
+    
+}
+
+.video{
+    display: flex;
+
+}
+
+.video img{
+    width: 101px;
+    height: 71px;
+}
+
+.video p, h4{
+    margin: 2px 2px 3px 5px;
+    padding: 0;
+    
+}
+
+.video p{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.video h4{
+    font-size: 14px;
+}
+
+.propaganda img {
+    height: 56px;
+    width: 270px;
+}
