@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: white;
     font-family: 'Roboto';
 }
 
@@ -13,6 +13,9 @@ body{
     grid-template-columns: minmax(100px, 543px) minmax(100px, 300px);
     grid-template-rows: minmax(56px, 217px) repeat(5, 50px, 200px);
     grid-gap: 12px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    
 }
 
 .video-principal{
@@ -45,22 +48,24 @@ body{
 
 .propaganda{
     grid-area: 1 / 2 / 1 / 2;
+    width: 270px;
     
 }
 
 .video-pequeno1{
     grid-area: 2 / 2 / 3 / 2;
+    width: 270px;
    
 }
 
 .video-pequeno2{
     grid-area: 3 / 2 / 4 / 2;
-   
+    width: 270px
 }
 
 .video-pequeno3{
     grid-area: 4 / 2 / 5 / 2;
-    
+    width: 270px
 }
 
 .video{
