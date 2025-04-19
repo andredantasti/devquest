@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Elementos DOM</title>
+</head>
+<body>
+    <h1>Manipulando Elementos DOM</h1>
+
+    <h1>Posts do Twitter</h1>
+
+    <article class="post">
+        <p><strong>Ricardo Dias</strong> <span>@andredantasti - 10 min</span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore obcaecati consequatur aliquid, aliquam magnam animi esse explicabo? Doloribus esse sit in nihil nulla vel qui necessitatibus similique repudiandae delectus?</p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>Comentários:</h3>
+
+            <input name="novo-comentario" type="text" placeholder="Digite seu comentário"/>
+            <button onclick="adicionarComentario()">Enviar</button>
+
+            <br>
+
+            <div id="novos-comentarios"></div>
+
+        </div>
+
+    </article>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

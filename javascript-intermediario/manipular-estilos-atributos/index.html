@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Atributos e Estilos DOM</title>
+
+    <style>
+      .fonte-grande {
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Manipulando Atributos e Estilos DOM</h1>
+
+    <button onclick="alterarCorDeFundoPrimeiroPost()">
+      Alterar Cor de Fundo do Primeiro Post
+    </button>
+
+    <br /><br />
+    <button onclick="aumentarFonteSegundoPost()">
+      Alterar Fonte Segundo Post
+    </button>
+
+    <article class="post">
+      <p><strong>Ricardo Dias</strong> <span>@andredantasti - 10 min</span></p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis
+        fugit numquam odit, quo repudiandae dolore consectetur eum, animi
+        pariatur explicabo voluptatem quae facere in inventore asperiores
+        nesciunt tenetur. Dignissimos. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Ex praesentium reprehenderit quam aliquam officia
+        atque incidunt. Adipisci, magnam. Expedita nulla nostrum labore placeat
+        tenetur dolores sapiente, vero sequi soluta molestiae!
+      </p>
+
+      <br />
+    </article>
+
+    <article class="post">
+      <p><strong>Ricardo Dias</strong> <span>@andredantasti - 10 min</span></p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis
+        fugit numquam odit, quo repudiandae dolore consectetur eum, animi
+        pariatur explicabo voluptatem quae facere in inventore asperiores
+        nesciunt tenetur. Dignissimos. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Ex praesentium reprehenderit quam aliquam officia
+        atque incidunt. Adipisci, magnam. Expedita nulla nostrum labore placeat
+        tenetur dolores sapiente, vero sequi soluta molestiae!
+      </p>
+
+      <br />
+    </article>
+
+    <h2>Manipulando Atributos</h2>
+
+    <button onclick="marcaRadio('F')">Marcar Radio Feminino</button>
+    <br />
+    Feminino <input type="radio" name="sexo" id="genero-feminino" />
+    <br /><br />
+    <button onclick="marcaRadio('M')">Marcar Radio Masculino</button>
+    <br />
+    Masculino <input type="radio" name="sexo" id="genero-masculino" />
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
