@@ -9,3 +9,4 @@ quadrado.addEventListener("click", function() {
         quadrado.classList.add("azul");
     }
 })
+
