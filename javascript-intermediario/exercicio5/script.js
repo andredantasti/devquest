@@ -23,7 +23,6 @@ btnEsquerda.addEventListener("click", function () {
     }
         
      }
-     desativarBotaoEsquerdo();
   }
 );
 
