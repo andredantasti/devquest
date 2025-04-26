@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto 0;
+    display: flex;
+}
+
+ 
+.container1, .container2, .container3, .container4{
+    position: absolute;
+}
+
+.main{
+    justify-content: center;
+    margin: auto 0;
+}
+
+img{
+    width: 208vh;
+    height: auto;
+}
+
+.container-imagem1, .container-imagem2, .container-imagem3, .container-imagem4{
+    position: absolute;
+    width: 620px;
+    height: 700px;
+    background-color: white;
+    margin-left: 180px;
+    margin-top: 164px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+h1{
+    font-size: 3.125rem;
+    margin-left: 60px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+p{
+    font-size: 1.563rem;
+    margin: 60px 50px
+}
+
+a{
+    font-size: 1.875rem;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: orangered;
+}
+
+.container1{
+    z-index: 5;
+}
+
+.container2{
+    z-index: 4;
+}
+
+.container3{
+    z-index: 3;
+}
+
+.container4{
+    z-index: 2;
+}
+
+.seta-esquerda{
+    display: flex;
+    position: relative;
+    
+}
+
+.seta-esquerda img{
+    width: 49px;
+    height: auto;
+    position: absolute;
+    z-index: 6;
+    margin-left: 77px;
+    margin-top: 500px;
+}
+
+.seta-direita{
+    display: flex;
+    position: relative;
+    
+}
+
+.seta-direita img{
+    width: 49px;
+    height: auto;
+    position: absolute;
+    z-index: 6;
+    margin-left: 1795px;
+    margin-top: 500px;
+}
+
