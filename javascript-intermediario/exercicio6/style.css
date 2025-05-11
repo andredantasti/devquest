@@ -1,0 +1,94 @@
+body{
+    background-color: #e9e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    font-size: 62.5%;
+
+}
+
+.container{
+    background-color: #fcfcfc;
+    width: 655px;
+    height: 347px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    width: 347px;
+    font-size: 0.9rem;
+}
+
+.barra{
+    border-bottom: 1px solid #d4d4d4;
+    width: 350px;
+}
+
+h2{
+    font-size: 1.06rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+
+
+.imagem{
+    position: absolute;
+    z-index: 1;
+    margin-right: 467px;
+    margin-top: 13px;
+
+}
+
+section, h1{
+    margin-left: 268px;
+   
+    
+}
+
+.faq1, .faq2, .faq3{
+    width: 390px;
+    margin-right: 37px;
+}
+
+.seta-inicial{
+    margin-left: 20px;
+}
+
+.seta-inicial2{
+    margin-left: 115px;
+}
+
+.seta-inicial3{
+    margin-left: 158px;
+}
+
+.acordeon{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.acordeon-active.acordeon{
+    display: block;
+}
+
+.acordeon {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.seta {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
