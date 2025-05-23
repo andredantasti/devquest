@@ -4,7 +4,7 @@ let fogaoEstaLigado = true;
 let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
     return new Promise((resolve, reject) => {
         if(chaleiraEstaNoFogao && fogaoEstaLigado){
-            console.log("Começando o processo de ferver água!");
+            console.log("Passo 1: Agua foi Fervida!");
             resolve(true);
         } else{
             console.log("É necessário colocar a chaleira no fogo e ligar o fogão!")
@@ -14,10 +14,26 @@ let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
 
 }
 
-let passarOCafe = () => console.log("Passando o café!");
-let tomarCafe = () => console.log("Tomando café!") ;
-let lavaXicara = () => console.log("Lavando xicara!");
+let passarOCafe = (aguaFervida) => {
+    return new Promise((resolve) => {
+        console.log("Passo 2 finalizado: Café foi passado");
+        resolve(true);
+    })  
+}
+let tomarCafe = (cafePassado) => {
+  return new Promise((resolve) => {
+    console.log("Passo 3 Finalizado: Terminei de tomar o café!");
+    resolve(true);
+  })  
+} 
 
+let lavaXicara = (cafeTomado) => {
+    return new Promise((resolve) => {
+        console.log("Passo 4 finalizado: Xícara Lavada")
+        resolve(true);
+    })
+    
+}
 
 async function iniciarProcessoDeFazerCafe(){
     const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado);
