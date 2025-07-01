@@ -1,0 +1,15 @@
+.botao{
+    background-color: chocolate;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.botao:hover{
+    background-color: aquamarine;
+    color: black;
+    transition: 0.2s ease-in;
+}
+

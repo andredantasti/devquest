@@ -1,0 +1,12 @@
+.containerCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    max-width: 200px;
+}
