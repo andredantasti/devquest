@@ -1,29 +1,15 @@
-import Button from "./components/button/button.js";
 import "./App.css";
-import Card from "./components/card/card.js";
+import Card from "./components/card/card";
+import Button from "./components/button/button";
+import Cards from "./components/cards/cards";
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        <Button title="Home"/>
-      </p>
-      <p>
-        <Button title="Anuncios"/>
-      </p>
-      <p>
-        <Button title="Festas e Eventos"/>
-      </p>
-      <p>
-        <Button title="Boates"/>
-      </p>
-      <p>
-        <Button title="Bares"/>
-      </p>
-      <div className="containerCard">
-      <Card title="Titulo Card 1"/><Card title="TItulo Card 2"/> <Card title="Titulo Card 3"/> <Card title="Titulo Card 4" /> <Card title="TItulo Card 5"/>
-      </div>
-    </div>
+    <>
+      <Button label="Clique Aqui"></Button>
+
+      <Cards></Cards>
+    </>
   );
 }
 

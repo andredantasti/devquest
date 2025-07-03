@@ -1,10 +1,16 @@
-import './button.css'
-const Button = ({title}) => {
-    return (
-    <div>
-    <button className="botao">{title}</button>
-    </div>
-    )
-    } 
+import './button.css';
+import React from 'react';
 
-export default Button;
+const sayHello = () => {
+  console.log("Hello World")
+}
+
+const Button = (props) => {
+    return <button className="botao" onClick={sayHello}>{props.label}</button>
+  }
+
+Button.defaultProps = {
+  label: "Clica"
+}
+
+export default Button
