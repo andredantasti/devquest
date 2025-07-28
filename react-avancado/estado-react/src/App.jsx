@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Panel from './components/panel/panel'
+import DeckOfCards from './components/deck-of-cards/Deckofcards'
 
 function App() {
   
@@ -10,7 +9,7 @@ function App() {
   return (
     <>  
 
-      <Panel></Panel>
+      <DeckOfCards />
 
     </>
   )

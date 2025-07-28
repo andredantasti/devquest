@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Count from './components/count/index'
-
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Count from "./components/count/index";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
-const incrementCount = () => {
-  setCount(count + 1);
-}
-
+  const incrementCount = () => {
+    setCount(count + 1);
+  };
 
   return (
     <>
@@ -26,13 +23,13 @@ const incrementCount = () => {
       </div>
       <h1>Vite + React</h1>
 
-        <Count count={count} incrementCount={incrementCount}/>
+      <Count count={count} incrementCount={incrementCount} />
 
-       <p className="read-the-docs">
+      <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

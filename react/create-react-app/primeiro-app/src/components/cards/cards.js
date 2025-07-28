@@ -21,7 +21,7 @@ const Cards = () => {
           return (
             <Card key={index} showCardColor={showCardColor}>
               <h3>{cardsTitle}</h3>
-              <p>TextCard Numero do card, arrocha!</p>
+              <p>TextCard Numero {index} do card, arrocha!</p>
             </Card>
           );
         })}

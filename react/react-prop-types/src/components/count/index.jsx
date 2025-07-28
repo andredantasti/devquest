@@ -10,8 +10,8 @@ const Count = (props) => {
         </button>
       </div>
 
-    )
-}
+    );
+};
 
 Count.propTypes = {
     count: PropTypes.number.isRequired,

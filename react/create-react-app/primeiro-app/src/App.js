@@ -6,7 +6,8 @@ import Cards from "./components/cards/cards";
 function App() {
   return (
     <>
-      <Button label="Clique Aqui"></Button>
+      <Button label="Home"></Button>
+      <Button></Button>
 
       <Cards></Cards>
     </>
